@@ -1,0 +1,5 @@
+config HELLOWORLD
+  bool "print hello world chun"
+  default y
+  help
+     This will print hello world chun
