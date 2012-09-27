@@ -1,4 +1,5 @@
 #
+# new added syscall #
 # 64-bit system call numbers and entry vectors
 #
 # The format is:
@@ -320,9 +321,8 @@
 311	64	process_vm_writev	sys_process_vm_writev
 312	common	kcmp			sys_kcmp
 
-# new syscall hello_world
-#313     common  hello_world             sys_hello_world
-
+## new syscall hello_world
+313     common  hello_world             sys_hello_world
 
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
